@@ -1,0 +1,8 @@
+# Schema for the configuration files of the HTMX module.
+htmx.settings:
+  type: config_object
+  label: 'HTMX settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

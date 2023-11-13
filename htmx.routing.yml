@@ -1,0 +1,7 @@
+htmx.settings_form:
+  path: '/admin/config/system/htmx'
+  defaults:
+    _title: 'HTMX settings'
+    _form: 'Drupal\htmx\Form\SettingsForm'
+  requirements:
+    _permission: 'administer htmx configuration'

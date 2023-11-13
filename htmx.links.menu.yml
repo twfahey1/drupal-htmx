@@ -1,0 +1,6 @@
+htmx.settings_form:
+  title: 'HTMX'
+  description: 'Configure HTMX.'
+  parent: system.admin_config_system
+  route_name: htmx.settings_form
+  weight: 10
