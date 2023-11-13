@@ -5,3 +5,13 @@ htmx.settings_form:
     _form: 'Drupal\htmx\Form\SettingsForm'
   requirements:
     _permission: 'administer htmx configuration'
+
+htmx.example:
+  path: '/htmx/example/api'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\htmx\Controller\ExampleEditController::build'
+  # Allow GET, PUT, POST, PATCH, DELETE
+  methods: [GET, PUT, POST, PATCH, DELETE]
+  requirements:
+    _permission: 'access content'
