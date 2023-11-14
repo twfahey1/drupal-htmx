@@ -15,3 +15,11 @@ htmx.example:
   methods: [GET, PUT, POST, PATCH, DELETE]
   requirements:
     _permission: 'access content'
+
+htmx.example_sse:
+  path: '/htmx/sse-example'
+  defaults:
+    _title: 'SSE'
+    _controller: '\Drupal\htmx\Controller\ExampleSseController::build'
+  requirements:
+    _permission: 'access content'

@@ -24,5 +24,11 @@ function htmx_theme() {
                 'user_email' => NULL,
             ],
         ],
+        'htmx_sse_example' => [
+            'template' => 'htmx-sse-example',
+            'variables' => [
+                'user_email' => NULL,
+            ],
+        ],
     ];
 }
